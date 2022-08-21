@@ -1,0 +1,34 @@
+body 
+{
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(#99FEFF,#B983FF,#94B3FD,#B983FF,#94DAFF);
+}
+
+#h1
+{
+font-size:40px;
+}
+
+canvas
+{
+border:5px solid #3D3C42;
+border-radius: 20px;
+animation-name:example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+p
+{
+padding-top: 10px;
+font-size: 30px;
+}
+
+
+@keyframes example
+{
+from {box-shadow:1px 1px 38px white;}
+to {box-shadow:1px 1px 38px grey;}
+}
+
